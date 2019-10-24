@@ -1,0 +1,51 @@
+buildscript {
+    ext.kotlin_version = '1.3.41'
+    repositories {
+        google()
+        jcenter()
+        // Smart&Soft maven repository
+        maven
+        {
+            credentials
+            {
+                username nexusUsername
+                password nexusPassword
+            }
+
+            url nexusRepositoryUrl
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.smartnsoft:smartlane-android:1.0.5'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        // Smart&Soft maven repository
+        maven
+        {
+            credentials
+            {
+                username nexusUsername
+                password nexusPassword
+            }
+
+            url nexusRepositoryUrl
+        }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

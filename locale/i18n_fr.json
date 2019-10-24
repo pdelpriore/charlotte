@@ -1,0 +1,17 @@
+{
+  "app_title": "Super titre",
+  "network_error_title": "Aucun réseau",
+  "retry": "Réessayer",
+  "email_hint": "Email",
+  "password_hint": "Mot de passe",
+  "user_name_hint": "Nom d'utilisateur",
+  "user_password_hint": "Mot de passe",
+  "connect_button": "Connexion",
+  "login_error": "Identifiant ou mot de passe incorrect",
+  "login_network_error": "Réseau hors de portée",
+  "time_tracking": "TimeTracking",
+  "my_charges": "Mes frais",
+  "meeting": "Réunion",
+  "trombinoscope": "Trombinoscope",
+  "profile": "Profil"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="00: Verifying fastlane version" time="0.001343">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.000943">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: xcode_select" time="0.001011">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: add_badge" time="1.377228">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: Switch to ios set_beta_version lane" time="0.00114">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: last_git_commit" time="0.035752">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: get_version_number" time="0.048773">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: increment_version_number" time="0.88721">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: increment_build_number" time="0.915289">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: clear_derived_data" time="0.504767">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: cocoapods" time="48.588716">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: git_branch" time="0.034831">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: gym" time="89.269614">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="13: Switch to ios smartdistrib lane" time="0.001282">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="14: ftp" time="16.921036">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="15: Switch to ios dispenser lane" time="0.002129">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
